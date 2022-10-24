@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class ResultActivity extends AppCompatActivity {
 
     private Button btnlogout;
-    private TextView tvnama,tvemail,tvnegara;
+    private TextView tvnama, tvemail, tvnegara;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +31,7 @@ public class ResultActivity extends AppCompatActivity {
         btnlogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ResultActivity.this,MainActivity.class);
+                Intent intent = new Intent(ResultActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });

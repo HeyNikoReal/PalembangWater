@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnlogin,btnweb,btnsignup;
+    private Button btnlogin, btnweb, btnsignup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btnsignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,SignUpActivity.class);
+                Intent intent = new Intent(MainActivity.this, SignUpActivity.class);
                 startActivity(intent);
             }
         });
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,LoginActivity.class);
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
             }
         });
@@ -45,9 +45,8 @@ public class MainActivity extends AppCompatActivity {
                 Uri webPage = Uri.parse("https://palembang.go.id");
                 Intent intent = new Intent(Intent.ACTION_VIEW, webPage);
                 startActivity(intent);
-                }
+            }
         });
-
 
 
     }

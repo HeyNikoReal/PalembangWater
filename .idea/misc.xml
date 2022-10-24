@@ -4,10 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/PalembangWater/app/src/main/res/drawable/bg_corner.xml" value="0.1" />
+        <entry key="..\:/Android/PalembangWater/app/src/main/res/drawable/ic_email_24.xml" value="0.118" />
         <entry key="..\:/Android/PalembangWater/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Android/PalembangWater/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Android/PalembangWater/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Android/PalembangWater/app/src/main/res/layout/activity_result.xml" value="0.1" />
+        <entry key="..\:/Android/PalembangWater/app/src/main/res/layout/activity_result.xml" value="0.22" />
         <entry key="..\:/Android/PalembangWater/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
       </map>
     </option>

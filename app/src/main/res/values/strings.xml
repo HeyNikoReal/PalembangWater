@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Palembang Water</string>
+    <string-array name="arr_negara">
+        <item>Indonesia</item>
+        <item>USA</item>
+    </string-array>
+
 </resources>
